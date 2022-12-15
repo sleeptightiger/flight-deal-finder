@@ -8,8 +8,8 @@ class NotificationManager:
         self.send_notification()
 
     def send_notification(self):
-        account_sid = 'ACf22f4ffa32d290a001af369f6455cb71'
-        auth_token = 'a0b084fba3cb1f77e0dd82930d47b676'
+        account_sid = ''
+        auth_token = ''
         text = f"Low price alert! Only £{self.data.lowest_price}" \
                f" to fly from {self.data.departure_city}-{self.data.departure_code}" \
                f" to {self.data.city_to}-{self.data.code_to}, from" \
